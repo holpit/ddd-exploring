@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ddd-exploring")]
+[assembly: AssemblyTitle("ddd-datalayer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ddd-exploring")]
+[assembly: AssemblyProduct("ddd-datalayer")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4e7416e3-f2ef-4a32-b08f-ab818c16462f")]
+[assembly: Guid("19f78eea-fc69-49f2-8028-5f54db12fc8c")]
 
 // Version information for an assembly consists of the following four values:
 //
