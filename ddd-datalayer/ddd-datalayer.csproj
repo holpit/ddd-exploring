@@ -49,10 +49,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\IAggregate.cs" />
+    <Compile Include="Core\Indirizzo.cs" />
+    <Compile Include="Core\Nominativo.cs" />
+    <Compile Include="Core\Paziente.cs" />
+    <Compile Include="Core\ValueObject.cs" />
     <Compile Include="EmailService.cs" />
+    <Compile Include="Core\Entity.cs" />
+    <Compile Include="Infrastruttura\DependencyFactory.cs" />
     <Compile Include="OspitiService.cs" />
     <Compile Include="Patient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\PazienteRepository.cs" />
     <Compile Include="Sw1Context.cs" />
   </ItemGroup>
   <ItemGroup>

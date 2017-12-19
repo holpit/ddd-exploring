@@ -1,4 +1,5 @@
 ﻿using System;
+using ddd_datalayer.Core;
 using ddd_exploring;
 using Xunit;
 
@@ -26,5 +27,17 @@ namespace ddd_tests
             Assert.Equal(dataUscita, sut.DataUscita);
         }
 
+        [Fact]
+        public void Nuovo_Paziente_Viene_Registrato_Con_Tutti_I_Dati_DDD()
+        {
+
+            var sut = Paziente.CreaPaziente(
+                new Nominativo("Mario", "Rossi"),
+                new Indirizzo("Via", "10", "Citta", "CAP"),
+                new DateTime(1970, 2, 4));
+            //E' stata spedita la mail?
+            Assert.Equal("Rossi", sut.Nominativo.Cognome);
+            Assert.Equal("10",sut.Indirizzo.Numero);
+        }
     }
 }
