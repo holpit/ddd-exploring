@@ -22,6 +22,7 @@ namespace ddd_exploring
             }
             finally
             {
+                Console.WriteLine("---");
                 Console.ReadLine();
             }
         }
